@@ -47,7 +47,8 @@ function PromiseConnection(connection, promiseImpl) {
     'drain',
     'connect',
     'end',
-    'enqueue'
+    'enqueue',
+    'query'
   ]);
 }
 util.inherits(PromiseConnection, EventEmitter);
